@@ -12,7 +12,7 @@ const bot = new TelegramBot('1784948213:AAFFIuHqiI01aaOhGEg2m_Uq28CLbwL-I2E', { 
 let time_candlesticks = "1h";
 let chatId = "711570900";
 
-let coin_symbols = ["SXPUSDT"];
+let coin_symbols = ["SXPUSDT", "BNBUSDT"];
 
 /** Duyệt danh sách coin tính rsi */
 coin_symbols.forEach(coin_symbol => {
